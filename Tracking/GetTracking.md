@@ -5,7 +5,7 @@ Request for tracking history of a consignment
 *This API can only be called after the API authentication is approved (the correct
 auth string has been passed). 
 
-URL: https://api.parcelport.co.nz/api/1.0/tracking?consignment_ref={consignmentRef}
+URL: https://api.parcelport.co.nz/api/1.0/tracking?consignment_ref={consignmentRef}&client_id={client_id}
 
 ## Required Parameters:
 * consignmentRef [Require, e.g. "00187037343"]
